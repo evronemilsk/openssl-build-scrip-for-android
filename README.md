@@ -7,7 +7,7 @@ Openssl v1.1.1
 linux-x86_64  
 android-ndk-r16b  
    
-Useage:  
+Use:  
 . ./build-android.sh  
 
 GNU GENERAL PUBLIC LICENSE
