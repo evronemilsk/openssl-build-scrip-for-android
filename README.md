@@ -2,10 +2,13 @@
 
 Shell script for compile openssl source code for android platform.
 
+Tools:   
 Openssl v1.1.1  
 linux-x86_64  
 android-ndk-r16b  
-
+   
+Useage:  
+. ./build-android.sh  
 
 GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
