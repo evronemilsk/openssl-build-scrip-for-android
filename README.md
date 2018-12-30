@@ -2,9 +2,9 @@
 
 Shell script for compile openssl source code for android platform.
 
-Openssl v1.1.1,
-cygwin or linx,
-android-sdk
+Openssl v1.1.1  
+linux-x86_64  
+android-ndk-r16b  
 
 
 GNU GENERAL PUBLIC LICENSE
