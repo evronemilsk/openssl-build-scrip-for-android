@@ -20,5 +20,5 @@ mkdir -p $_OUTPUT_DIR/android-$_ANDROID_API
 
 export ANDROID_NDK=$_ANDROID_NDK_ROOT
 export PATH=$ANDROID_NDK/toolchains/$_ANDROID_EABI/prebuilt/linux-x86_64/bin:$PATH
-./Configure $_TARGET_OS -D__ANDROID_API__=$_ANDROID_API --openssldir=$_OUTPUT_DIR/android-$_ANDROID_API/android-$_ANDROID_ARCH
+./Configure $_ANDROID_ARCH -D__ANDROID_API__=$_ANDROID_API --openssldir=$_OUTPUT_DIR/android-$_ANDROID_API/android-$_ANDROID_ARCH
 make && make install
